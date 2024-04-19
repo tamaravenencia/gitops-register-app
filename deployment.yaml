@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: testjenkins
-          image: tvenencia/testjenkins-pipeline:1.0.0-8
+          image: tvenencia/testjenkins-pipeline:latest
           resources:
             limits:
               memory: "256Mi"
