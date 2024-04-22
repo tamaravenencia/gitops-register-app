@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: register-app-service
+  name: testjenkins-service
   labels:
-    app: register-app 
+    app: testjenkins
 spec:
   selector:
-    app: register-app
+    app: testjenkins
 
   ports:
     - port: 8080
